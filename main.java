@@ -18,6 +18,7 @@ public class main {
       items i10= new refrigeratedItem("Tilapia","CAD15.20","INSTOCK","08/16/2024","Isle 2","Shelf 3","Freezer 3");
       items i11= new refrigeratedItem("Chicken","CADl8.90","INSTOCK","04/21/2024","Isle 2","Shelf 3","Freezer 3");
       items i12= new items("Cereal","CAD13","INSTOCK","02/24/2025","Isle 4","Shelf 7");
+      items i13= new items("Canned Black beans","CAD10.07","INSTOCK","04/26/2025","Isle 9","Shelf 1");
 
        System.out.println("-------------------------------");
        System.out.println(i1);
@@ -60,8 +61,8 @@ public class main {
 
     
 
-      // showing my understanding polymoriphisim - temporatily changing a regular item to a refrigrated item
-      //temporarily changing the refrigerited itm to a refular item
+      //showing my understanding on polymoriphisim -
+      //temporarily changing the refrigrated item to a regular item
       items[] newitems = new items[4];
       newitems[0]= i3;
       newitems[1]= i4;
@@ -83,6 +84,7 @@ public class main {
 
       }
    }
+
 
    
        
